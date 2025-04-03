@@ -1,0 +1,7 @@
+n1 = float(input("Enter 1st number: "))
+n2 = float(input("Enter 2nd number: "))
+n3 = float(input("Enter 3rd number: "))
+large = max(n1 , n2, n3)
+small = min(n1 , n2, n3)
+print("Largest number: ", large)
+print("Smallest number: ", small)
